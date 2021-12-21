@@ -149,6 +149,7 @@ body{
     body{
         text-align: center;
         height: auto;
+        position: relative;
     }
     .main{
         margin: 5rem auto;
@@ -179,7 +180,8 @@ body{
         margin: 0 auto;
     }
     .attribution{
-        display: none;
+        position: absolute;
+        bottom: -5rem;
     }
 
 }
